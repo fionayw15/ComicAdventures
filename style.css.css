@@ -1,0 +1,40 @@
+/* STYLE SECTIONING TAGS */
+.landingImages {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centeredHeading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 518px;
+    height: 46px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(IrishGrover-Regular.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(IrishGrover-Regular.ttf);
+    weight: bold;
+}
+
+* {
+    font-family: myFirstFont;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
